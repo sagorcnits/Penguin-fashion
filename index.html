@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penguin - Home</title>
+
+    <!-- tailwind css -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- tailwind css -->
+
+    <!-- google font cdn link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- roboto font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font cdn link -->
+
+    <style>
+      .bebas-font {
+        font-family: "Bebas Neue", sans-serif;
+      }
+
+      .roboto-font {
+        font-family: "Roboto", sans-serif;
+        color: #3c3c3c;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="pt-8 bg-[#FFFBF0]">
+      <nav
+        class="lg:flex justify-between items-center lg:max-w-6xl m-auto roboto-font"
+      >
+        <div class="w-10/12 mx-auto lg:mx-0 lg:w-1/2">
+          <img class="lg:w-1/2" src="icons/logo.png" alt="" />
+        </div>
+        <ul class="flex justify-center">
+          <li><a class="lg:ml-8 ml-4" href="#">Home</a></li>
+          <li><a class="lg:ml-8 ml-4" href="#">Product</a></li>
+          <li><a class="lg:ml-8 ml-4" href="#">About Us</a></li>
+          <li><a class="lg:ml-8 ml-4" href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <!-- banner section start  -->
+      <section class="mt-8 max-w-6xl lg:m-auto lg:flex items-center gap-5">
+        <div class="lg:w-1/2 px-4">
+          <h1 class="text-6xl bebas-font">
+            <span class="text-[#FABE4C]">Be the Penguins</span> <br />
+            <span class="text-[#363958]"> of Winter</span>
+          </h1>
+          <p class="text-[#3E3E3E] leading-6 py-4">
+            Lorem Ipsum is simply dummy text of the printing <br />
+            and typesetting industry.
+          </p>
+          <button
+            class="py-2.5 px-8 bg-gradient-to-r from-[#A4BC46] to-[#85A019] rounded-md text-white roboto-font duration-500"
+          >
+            BUY NOW
+          </button>
+        </div>
+        <div class="lg:w-1/2">
+          <img class="w-9/12 mx-auto" src="images/model.png" alt="" />
+        </div>
+      </section>
+    </header>
+    <main>
+      <!-- women jaket section -->
+      <section class="max-w-6xl mx-auto mt-8">
+        <h1 class="text-[#363958] uppercase">W0Man Jacket</h1>
+      </section>
+    </main>
+  </body>
+</html>
